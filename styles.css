@@ -125,8 +125,53 @@ button{
   flex-wrap: wrap;
   justify-content: center;
   padding: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .signout{
   align-self: flex-end;
 }
 /*Third Section styles End here*/
+/*Fourth Section Begins Here*/
+.fourth-container{
+  display: flex;
+  margin: 50px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.cont-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  gap: 0%;
+  margin-top: 0%;
+}
+.cont-button{
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  border-color: #F9FAF8;
+}
+#bold{
+  font-weight: bold
+}
+#sec{
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  padding-left: 100px;
+}
+/*Fourth Section Ends*/
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
