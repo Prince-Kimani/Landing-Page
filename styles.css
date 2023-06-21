@@ -106,4 +106,27 @@ button{
 .info-img{
   height: 100px;
 }
-/*Second Section styles ends here/*
+/*Second Section styles ends here*/
+/*Third Section Begins here*/
+.Quotes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+.quotes-text{
+  font-style: italic;
+  font-size: 36px;
+  font-weight: light;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+.signout{
+  align-self: flex-end;
+}
+/*Third Section styles End here*/
